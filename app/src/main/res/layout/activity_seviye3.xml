@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seviye3">
+    <TextView
+        android:id="@+id/timetext3"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="100dp"
+        android:text="Time:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/skortext3"
+        android:layout_width="202dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="83dp"
+        android:text="Score:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/seviye3"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="LEVEL 3"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="366dp"
+        android:layout_height="374dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sungerbob" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="skorarttir3"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sungerbob" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

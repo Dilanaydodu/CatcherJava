@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="exit"
+    tools:context=".son">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="186dp"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/exitbuton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="267dp"
+        android:background="@drawable/butonarka"
+        android:onClick="yeniden"
+        android:text="PLAY AGAIN"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameover"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/exitbuton"
+        android:layout_width="196dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="141dp"
+        android:background="#1F2337"
+        android:onClick="exit"
+        android:outlineSpotShadowColor="#C31616"
+        android:shadowColor="#AF1616"
+        android:text="EXIT"
+        android:textAlignment="center"
+        android:textColorHint="#A30F0F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameover" />
+</androidx.constraintlayout.widget.ConstraintLayout>
